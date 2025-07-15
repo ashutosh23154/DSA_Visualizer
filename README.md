@@ -11,6 +11,8 @@ This project is ideal for students, educators, and self-learners aiming to stren
 - 🔍 **Searching Algorithms**
   - Linear Search
   - Binary Search
+  - Jump Search
+  - Exponential Search
 
 - 📊 **Sorting Algorithms**
   - Bubble Sort
@@ -18,6 +20,10 @@ This project is ideal for students, educators, and self-learners aiming to stren
   - Insertion Sort
   - Merge Sort
   - Quick Sort
+  - Heap Sort
+  - Counting Sort
+  - Radix Sort
+  - Bucket Sort
 
 - ⚡ Real-time step-by-step visualizations  
 - 🧠 Intuitive UI with smooth transitions  
@@ -30,27 +36,7 @@ This project is ideal for students, educators, and self-learners aiming to stren
 - 🔗 Linked List visualizations  
 - ♻️ Recursion trace simulator  
 - 🌲 Tree and Graph traversal animations  
-- 🌙 Dark mode support  
 - 🧪 Algorithm comparison metrics (time/space complexity visual aids)
-
----
-
-## 📁 Project Structure
-
-```
-DSA_Visualizer/
-├── public/                  # Static files
-├── src/
-│   ├── algorithms/          # Implementation of search/sort logic
-│   ├── components/          # Reusable visual and control components
-│   ├── pages/               # Top-level views
-│   ├── hooks/               # Custom React hooks
-│   ├── App.tsx              # Main application wrapper
-│   └── main.tsx             # Entry point
-├── package.json             # Project metadata and scripts
-├── tailwind.config.ts       # TailwindCSS configuration
-└── vite.config.ts           # Vite build config
-```
 
 ---
 
@@ -81,27 +67,6 @@ By default, the app should be accessible at:
 📍 [http://localhost:5173](http://localhost:5173)
 
 ---
-
-## 🤝 Contributing
-
-Contributions are welcome! If you'd like to add a new feature, fix a bug, or improve the design:
-- Fork the repository
-- Create a new branch (`git checkout -b feature-name`)
-- Commit your changes
-- Open a pull request
-
-Please ensure your code is clean and well-documented.
-
----
-
-## 📄 License
-
-This project is licensed under the [MIT License](https://opensource.org/licenses/MIT).  
-You are free to use, modify, and distribute this software with attribution.
-
----
-
-## 🙋‍♂️ Author
 
 **Ashutosh Tiwari**  
 GitHub: [@ashutosh23154](https://github.com/ashutosh23154)

@@ -68,9 +68,4 @@ By default, the app should be accessible at:
 
 ---
 
-**Ashutosh Tiwari**  
-GitHub: [@ashutosh23154](https://github.com/ashutosh23154)
-
----
-
 > *Learning DSA doesn’t have to be dry — visualize, interact, and master the fundamentals.*

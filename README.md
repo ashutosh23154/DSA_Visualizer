@@ -1,8 +1,3 @@
-Absolutely! Here's the **complete professional `README.md`** — ready for you to copy and paste directly into your project:
-
----
-
-```markdown
 # DSA Visualizer
 
 **DSA Visualizer** is a web-based educational tool designed to help learners grasp fundamental Data Structures and Algorithms through dynamic, real-time visualizations. Currently, the platform supports **searching** and **sorting** algorithms with interactive controls and smooth animations.
@@ -24,18 +19,18 @@ This project is ideal for students, educators, and self-learners aiming to stren
   - Merge Sort
   - Quick Sort
 
-- ⚡ Real-time step-by-step visualizations
-- 🧠 Intuitive UI with smooth transitions
+- ⚡ Real-time step-by-step visualizations  
+- 🧠 Intuitive UI with smooth transitions  
 - 🛠️ Built using **React**, **TypeScript**, **TailwindCSS**, and **Vite**
 
 ---
 
 ## 🚧 Upcoming Enhancements
 
-- 🔗 Linked List visualizations
-- ♻️ Recursion trace simulator
-- 🌲 Tree and Graph traversal animations
-- 🌙 Dark mode support
+- 🔗 Linked List visualizations  
+- ♻️ Recursion trace simulator  
+- 🌲 Tree and Graph traversal animations  
+- 🌙 Dark mode support  
 - 🧪 Algorithm comparison metrics (time/space complexity visual aids)
 
 ---
@@ -43,8 +38,7 @@ This project is ideal for students, educators, and self-learners aiming to stren
 ## 📁 Project Structure
 
 ```
-
-DSA\_Visualizer/
+DSA_Visualizer/
 ├── public/                  # Static files
 ├── src/
 │   ├── algorithms/          # Implementation of search/sort logic
@@ -56,8 +50,7 @@ DSA\_Visualizer/
 ├── package.json             # Project metadata and scripts
 ├── tailwind.config.ts       # TailwindCSS configuration
 └── vite.config.ts           # Vite build config
-
-````
+```
 
 ---
 
@@ -70,7 +63,7 @@ Follow these steps to run the project locally on your machine:
 ```bash
 git clone https://github.com/ashutosh23154/DSA_Visualizer.git
 cd DSA_Visualizer
-````
+```
 
 ### 2. Install Dependencies
 
@@ -84,7 +77,7 @@ npm install
 npm run dev
 ```
 
-By default, the app should be accessible at:
+By default, the app should be accessible at:  
 📍 [http://localhost:5173](http://localhost:5173)
 
 ---
@@ -92,11 +85,10 @@ By default, the app should be accessible at:
 ## 🤝 Contributing
 
 Contributions are welcome! If you'd like to add a new feature, fix a bug, or improve the design:
-
-* Fork the repository
-* Create a new branch (`git checkout -b feature-name`)
-* Commit your changes
-* Open a pull request
+- Fork the repository
+- Create a new branch (`git checkout -b feature-name`)
+- Commit your changes
+- Open a pull request
 
 Please ensure your code is clean and well-documented.
 
@@ -104,27 +96,16 @@ Please ensure your code is clean and well-documented.
 
 ## 📄 License
 
-This project is licensed under the [MIT License](https://opensource.org/licenses/MIT).
+This project is licensed under the [MIT License](https://opensource.org/licenses/MIT).  
 You are free to use, modify, and distribute this software with attribution.
 
 ---
 
 ## 🙋‍♂️ Author
 
-**Ashutosh Tiwari**
+**Ashutosh Tiwari**  
 GitHub: [@ashutosh23154](https://github.com/ashutosh23154)
 
 ---
 
 > *Learning DSA doesn’t have to be dry — visualize, interact, and master the fundamentals.*
-
-```
-
----
-
-You can now:
-- Copy this file into your project root as `README.md`
-- Commit and push to update your GitHub repository
-
-Let me know if you’d like to generate a favicon, deploy this on Netlify or Vercel, or get help adding future visualizations.
-```

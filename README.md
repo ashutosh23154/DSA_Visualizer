@@ -43,8 +43,8 @@
 
 ### ⚙️ Prerequisites
 
-- Node.js (>= 18 recommended)
-- npm (>= 9)
+- Node.js
+- npm
 
 ### 🧪 Installation
 
@@ -53,15 +53,4 @@ git clone https://github.com/ashutosh23154/DSA_Visualizer.git
 cd DSA_Visualizer
 npm install
 npm run dev
-
-DSA_Visualizer/
-├── src/
-│   ├── algorithms/         # Logic for sorting and searching
-│   ├── components/         # Reusable UI components
-│   ├── pages/              # Page layouts (home, visualizer, etc.)
-│   ├── styles/             # Tailwind and global styles
-│   └── App.tsx             # Main app component
-├── public/                 # Static assets
-├── index.html              # HTML entry point
-├── package.json            # Project metadata and scripts
-└── vite.config.ts          # Vite configuration
+```

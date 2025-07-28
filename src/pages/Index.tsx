@@ -43,24 +43,6 @@ const Index = () => {
       color: 'from-purple-500 to-purple-600'
     },
     {
-      title: 'Trees',
-      description: 'Visualize binary trees, AVL trees, red-black trees, and tree traversal algorithms.',
-      icon: TreePine,
-      algorithmCount: 10,
-      difficulty: 'Intermediate' as const,
-      link: '/category/trees',
-      color: 'from-orange-500 to-orange-600'
-    },
-    {
-      title: 'Graphs',
-      description: 'Learn graph representations, DFS, BFS, shortest path, and minimum spanning tree algorithms.',
-      icon: Network,
-      algorithmCount: 15,
-      difficulty: 'Advanced' as const,
-      link: '/category/graphs',
-      color: 'from-red-500 to-red-600'
-    },
-    {
       title: 'Recursion',
       description: 'Master recursive thinking with factorial, fibonacci, tower of hanoi, and backtracking problems.',
       icon: Repeat,
@@ -68,15 +50,6 @@ const Index = () => {
       difficulty: 'Intermediate' as const,
       link: '/category/recursion',
       color: 'from-teal-500 to-teal-600'
-    },
-    {
-      title: 'Dynamic Programming',
-      description: 'Solve optimization problems with memoization, tabulation, and classic DP patterns.',
-      icon: Zap,
-      algorithmCount: 12,
-      difficulty: 'Advanced' as const,
-      link: '/category/dynamic-programming',
-      color: 'from-indigo-500 to-indigo-600'
     }
   ];
 

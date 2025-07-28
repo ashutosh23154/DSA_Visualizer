@@ -39,33 +39,6 @@ const Algorithms = () => {
       difficulty: 'Intermediate' as const,
       link: '/category/recursion',
       color: 'from-teal-500 to-teal-600'
-    },
-    {
-      title: 'Dynamic Programming',
-      description: 'Solve optimization problems with memoization, tabulation, and classic DP patterns.',
-      icon: Zap,
-      algorithmCount: 12,
-      difficulty: 'Advanced' as const,
-      link: '/category/dynamic-programming',
-      color: 'from-indigo-500 to-indigo-600'
-    },
-    {
-      title: 'Divide & Conquer',
-      description: 'Break down complex problems into smaller subproblems with merge sort, quicksort, and more.',
-      icon: Binary,
-      algorithmCount: 6,
-      difficulty: 'Intermediate' as const,
-      link: '/category/divide-conquer',
-      color: 'from-purple-500 to-purple-600'
-    },
-    {
-      title: 'Mathematical',
-      description: 'Explore number theory, prime algorithms, GCD, LCM, and mathematical computations.',
-      icon: Calculator,
-      algorithmCount: 10,
-      difficulty: 'Beginner' as const,
-      link: '/category/mathematical',
-      color: 'from-orange-500 to-orange-600'
     }
   ];
 

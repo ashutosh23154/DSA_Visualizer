@@ -27,9 +27,9 @@ const Hero = () => {
           <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold tracking-tight mb-6">
             <span className="block text-foreground">Master</span>
             <span className="block bg-gradient-to-r from-primary via-secondary to-accent bg-clip-text text-transparent">
-              Data Structures
+              Searching
             </span>
-            <span className="block text-foreground">& Algorithms</span>
+            <span className="block text-foreground">& Sorting</span>
           </h1>
 
           {/* Subtitle */}

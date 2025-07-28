@@ -32,24 +32,6 @@ const Index = () => {
       difficulty: 'Intermediate' as const,
       link: '/category/sorting',
       color: 'from-green-500 to-green-600'
-    },
-    {
-      title: 'Linked Lists',
-      description: 'Understand singly, doubly, and circular linked lists with dynamic memory visualization.',
-      icon: LinkIcon,
-      algorithmCount: 6,
-      difficulty: 'Beginner' as const,
-      link: '/category/linked-lists',
-      color: 'from-purple-500 to-purple-600'
-    },
-    {
-      title: 'Recursion',
-      description: 'Master recursive thinking with factorial, fibonacci, tower of hanoi, and backtracking problems.',
-      icon: Repeat,
-      algorithmCount: 8,
-      difficulty: 'Intermediate' as const,
-      link: '/category/recursion',
-      color: 'from-teal-500 to-teal-600'
     }
   ];
 
@@ -71,7 +53,7 @@ const Index = () => {
             </p>
           </div>
           
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6 w-50px mx-auto">
             {categories.map((category, index) => (
               <div
                 key={category.title}
@@ -90,11 +72,11 @@ const Index = () => {
         <div className="max-w-7xl mx-auto">
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
             <div className="space-y-2">
-              <div className="text-3xl md:text-4xl font-bold text-primary">50+</div>
+              <div className="text-3xl md:text-4xl font-bold text-primary">10+</div>
               <div className="text-sm text-muted-foreground">Algorithms</div>
             </div>
             <div className="space-y-2">
-              <div className="text-3xl md:text-4xl font-bold text-secondary">7</div>
+              <div className="text-3xl md:text-4xl font-bold text-secondary">2</div>
               <div className="text-sm text-muted-foreground">Categories</div>
             </div>
             <div className="space-y-2">

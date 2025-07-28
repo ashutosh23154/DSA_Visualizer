@@ -31,15 +31,15 @@ const Algorithms = () => {
       link: '/category/sorting',
       color: 'from-green-500 to-green-600'
     },
-    {
-      title: 'Recursion',
-      description: 'Master recursive thinking with factorial, fibonacci, tower of hanoi, and backtracking.',
-      icon: Repeat,
-      algorithmCount: 8,
-      difficulty: 'Intermediate' as const,
-      link: '/category/recursion',
-      color: 'from-teal-500 to-teal-600'
-    }
+    // {
+    //   title: 'Recursion',
+    //   description: 'Master recursive thinking with factorial, fibonacci, tower of hanoi, and backtracking.',
+    //   icon: Repeat,
+    //   algorithmCount: 8,
+    //   difficulty: 'Intermediate' as const,
+    //   link: '/category/recursion',
+    //   color: 'from-teal-500 to-teal-600'
+    // }
   ];
 
   return (
@@ -76,7 +76,7 @@ const Algorithms = () => {
             </p>
           </div>
           
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 w-50px mx-auto">
             {algorithmCategories.map((category, index) => (
               <div
                 key={category.title}

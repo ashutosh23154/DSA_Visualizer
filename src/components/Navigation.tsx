@@ -1,12 +1,13 @@
 
 import React from 'react';
-import { Link, useLocation } from 'react-router-dom';
+import { Link, useLocation, useNavigate } from 'react-router-dom';
 import { Button } from '@/components/ui/button';
 import { Menu, X, Code, Play } from 'lucide-react';
 
 const Navigation = () => {
   const [isMenuOpen, setIsMenuOpen] = React.useState(false);
   const location = useLocation();
+  const navigate = useNavigate();
 
   const navItems = [
     { name: 'Home', path: '/' },
@@ -43,7 +44,7 @@ const Navigation = () => {
                 {item.name}
               </Link>
             ))}
-            <Button size="sm" className="bg-gradient-to-r from-primary to-secondary hover:opacity-90">
+            <Button size="sm" className="bg-gradient-to-r from-primary to-secondary hover:opacity-90" onClick={() => navigate('/algorithms')}>
               <Play className="w-4 h-4 mr-2" />
               Start Learning
             </Button>
@@ -79,7 +80,11 @@ const Navigation = () => {
                   {item.name}
                 </Link>
               ))}
-              <Button className="w-full mt-4 bg-gradient-to-r from-primary to-secondary">
+              <Button className="w-full mt-4 bg-gradient-to-r from-primary to-secondary"
+                onClick={() => {
+                setIsMenuOpen(false);
+                navigate('/algorithms');
+              }}>
                 <Play className="w-4 h-4 mr-2" />
                 Start Learning
               </Button>

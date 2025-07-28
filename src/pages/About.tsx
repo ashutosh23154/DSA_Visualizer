@@ -84,25 +84,6 @@ const About = () => {
           ))}
         </div>
 
-        {/* Technology Stack */}
-        <Card className="mb-12">
-          <CardHeader>
-            <CardTitle className="flex items-center gap-2 text-2xl">
-              <Code className="w-6 h-6 text-primary" />
-              Built With Modern Technologies
-            </CardTitle>
-          </CardHeader>
-          <CardContent>
-            <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
-              {['React', 'TypeScript', 'Tailwind CSS', 'Shadcn/ui'].map((tech) => (
-                <div key={tech} className="text-center p-4 bg-muted/30 rounded-lg">
-                  <div className="font-medium">{tech}</div>
-                </div>
-              ))}
-            </div>
-          </CardContent>
-        </Card>
-
         {/* Open Source */}
         <Card className="mb-12">
           <CardHeader>
@@ -118,7 +99,7 @@ const About = () => {
               we'd love your help in making this tool better for everyone.
             </p>
             <Button asChild className="bg-gradient-to-r from-primary to-secondary">
-              <a href="https://github.com" target="_blank" rel="noopener noreferrer">
+              <a href="https://github.com/ashutosh23154/DSA_Visualizer.git" target="_blank" rel="noopener noreferrer">
                 <Github className="w-4 h-4 mr-2" />
                 View on GitHub
               </a>
